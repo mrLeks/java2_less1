@@ -10,5 +10,7 @@ public class Main {
         action[2] = new Cat("Barsik", 30,3);
         action[3] = new Robot("Bender", 10, 2);
         action[4] = new Robot("Boston", 5,1);
+        
+        System.out.printf();
     }
 }
