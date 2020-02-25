@@ -9,5 +9,6 @@ public interface Action {
     int getRunDistance();
 
     int getJumpHeight();
+    //test
 
 }
