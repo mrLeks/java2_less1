@@ -23,9 +23,6 @@ public class lesson2 {
 
 
     private static void getSum(String[][] arr){
-        if(arr.length != 4){
-            throw new MyArraySizeException();
-        }
 
         for (String[] strings : arr) {
             if (strings.length != 4) {
