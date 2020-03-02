@@ -27,8 +27,8 @@ public class less3 {
         book.add("Александров","811111111");
         book.add("Петрова","8777777");
 
-        book.find("Петрова");
-        book.find("Иванов");
-        book.find("Александров");
+        book.get("Петрова");
+        book.get("Иванов");
+        book.get("Александров");
     }
 }
