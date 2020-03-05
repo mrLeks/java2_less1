@@ -11,7 +11,7 @@ public class phonebook {
         pb.put(name, book);
     }
 
-    public void find(String name){
+    public void get(String name){
         System.out.println(name + "/Номер телефона: " + pb.getOrDefault(name, new HashSet<>()));
     }
 }
