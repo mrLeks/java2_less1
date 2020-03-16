@@ -42,6 +42,13 @@ public class less5 {
         t1.start();
         t2.start();
 
+        try {
+            t1.join();
+            t2.join();
+        } catch (InterruptedException e){
+            e.printStackTrace();
+        }
+
         System.arraycopy(a, 0, arr, 0, h);
         System.arraycopy(b, 0, arr, h, h);
 
