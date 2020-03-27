@@ -1,4 +1,4 @@
-package auth;
+package ru.geekbrains.java2.server.auth;
 
 public interface AuthService {
 

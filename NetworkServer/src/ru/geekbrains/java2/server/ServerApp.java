@@ -11,11 +11,11 @@ public class ServerApp {
 
     private static int getServerPort(String[] args){
         int port = DEFAULT_PORT;
-        if(args.length == 4){
+        if(args.length == 1){
             try {
                 port = Integer.parseInt(args[0]);
             } catch (NumberFormatException e){
-                System.out.printf("Некорректный порт. Будет использоваться порт по умолчанию");
+                System.out.println("Некорректный порт. Будет использоваться порт по умолчанию");
             }
         }
         return port;
